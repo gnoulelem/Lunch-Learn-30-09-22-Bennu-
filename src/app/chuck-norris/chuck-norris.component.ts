@@ -10,6 +10,5 @@ export class ChuckNorrisComponent implements OnInit {
 
   ngOnInit(): void {
     console.log('chuck-norris works!');
-    
   }
 }
