@@ -27,6 +27,9 @@ steps:
 - script: yarn
   displayName: 'Install npm dependencies'
 
+- script: yarn lint
+  displayName: 'Run lint'
+
 - script: yarn test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
   displayName: 'Run tests'
 
