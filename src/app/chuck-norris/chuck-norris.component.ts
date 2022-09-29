@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chuck-norris.component.scss']
 })
 export class ChuckNorrisComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
+    console.log('chuck-norris works!');
+    
   }
-
 }

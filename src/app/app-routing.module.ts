@@ -4,8 +4,8 @@ import { ChuckNorrisComponent } from './chuck-norris/chuck-norris.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
 const routes: Routes = [
-  {path: '', component: WelcomeComponent},
-  {path: 'chuck-norris', component: ChuckNorrisComponent}
+  { path: '', component: WelcomeComponent },
+  { path: 'chuck-norris', component: ChuckNorrisComponent }
 ];
 
 @NgModule({
