@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-joke {
+        margin-top: 30vh;
+        padding: 5vh;
+        background-color: orange;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 10px;
+        border-color: black;
+         
+        & > p {
+            font-size: 3em;
+        }
+
+        & > i {
+            font-size: 1em;
+        }
+    }
+}
