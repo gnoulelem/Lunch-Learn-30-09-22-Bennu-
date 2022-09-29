@@ -38,7 +38,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.DefaultWorkingDirectory)/dist/ll-30-sep-ng-app'
+    PathtoPublish: $(Build.DefaultWorkingDirectory)/dist/ll-30-sep-ng-app
     ArtifactName: 'll-30-sep-ng-app'
     publishLocation: 'Container'
   displayName: 'Publish prod artifact'
