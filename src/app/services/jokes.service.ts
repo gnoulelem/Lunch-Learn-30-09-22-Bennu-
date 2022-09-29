@@ -6,8 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class JokesService {
-
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   getJokes(): Observable<any> {
     return this.http.get<any>('https://api.chucknorris.io/jokes/random');
