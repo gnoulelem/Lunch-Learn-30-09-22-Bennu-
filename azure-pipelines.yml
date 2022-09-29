@@ -18,8 +18,15 @@ steps:
     versionSpec: '16.x'
   displayName: 'Install Node.js'
 
-- script: |
-    npm install -g @angular/cli
-    npm install
-    ng build
-  displayName: 'npm install and build'
+- script: npm install -g @angular/cli
+  displayName: 'Install ng cli'
+  
+- script: npm install -g yarn
+  displayName: 'Install yarn'
+
+- script: yarn
+  displayName: 'Install npm dependencies'
+
+- script: yarn build
+  displayName: 'Create prod artifact'
+
