@@ -27,6 +27,9 @@ steps:
 - script: yarn
   displayName: 'Install npm dependencies'
 
+- script: yarn test
+  displayName: 'Run tests'
+
 - script: yarn build
   displayName: 'Create prod artifact'
 
